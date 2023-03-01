@@ -31,6 +31,6 @@ logging.basicConfig(level=logging.INFO,
                             logging.StreamHandler(sys.stdout)])
 
 logging.info("This is an information message")
-logging.warn("This is a warning message")
+logging.warning("This is a warning message")
 logging.error("This is an error message")
 
